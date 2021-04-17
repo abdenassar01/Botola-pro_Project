@@ -1,0 +1,68 @@
+.content {
+  height: 85vh;
+  position: relative;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+}
+
+.content > div > img {
+  height: 300px;
+  width: auto;
+  margin-left: 60%;
+  margin-top: -15%;
+}
+
+.content > div > img:hover {
+  padding: 4%;
+  transition: ease-in 1s;
+  cursor: pointer;
+}
+
+.content > div {
+  font-family: Times, serif;
+  text-align: center;
+}
+
+.text h2 {
+  display: inline-flex;
+  margin-inline-start: 77%;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 2px 3px 0px rgb(145, 6, 121);
+  padding: auto;
+  color: rgb(255, 255, 255);
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  height: 20vh;
+  text-align: center;
+  color: bisque;
+  background-color: rgba(1, 15, 44, 0.3);
+}
+
+.footer h1 {
+  line-height: 90px;
+  font-family: sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.footer button {
+  border: none;
+  position: absolute;
+  align-items: center;
+  bottom: 5px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  background: rgb(14, 181, 247);
+  padding: 15px 40px;
+  left: 44%;
+}
+
+.footer button:hover,
+.footer button:focus {
+  background-color: rgb(9, 158, 84);
+}

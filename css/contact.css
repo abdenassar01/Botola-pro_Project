@@ -1,0 +1,43 @@
+.contact-content{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 300px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.card img{
+    width: 250px;
+    margin-top: 10px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card button{
+    margin-top: 20px;
+    padding: 15px 60px;
+    border:none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(57,119,41,1) 0%, rgba(0,212,255,1) 77%);
+}
+
+.card button:hover, .card button:focus{
+    border: none;
+    transform: skew(20deg);
+}
+
+.card h1{
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}

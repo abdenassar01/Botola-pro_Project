@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: tahoma;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  position: relative;
+}
+
+.navbar img {
+  height: 100px;
+  width: 80px;
+  align-self: center;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar ul li {
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.continner {
+  background: linear-gradient(
+    90deg,
+    rgba(21, 213, 146, 1) 0%,
+    rgba(226, 13, 39, 1) 90%
+  );
+  width: 100%;
+}
+
+.navbar ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 2px 2px black;
+}
+
+#botola {
+  position: absolute;
+  color: #fff;
+  font-family: tahoma;
+  left: 24%;
+  top: 18px;
+  text-shadow: 2px 2px black;
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-color: #fff;
+}
+
+#botola span {
+  color: rgb(216, 15, 235);
+  position: relative;
+  top: 25px;
+  right: 134.5px;
+  border-left-style: solid;
+  border-left-color: #fff;
+}
+
+.navbar ul li a:hover {
+  color: rgba(242, 247, 1, 0.849);
+  border-bottom: rgb(13, 132, 212) 2px solid;
+  transition: 0.2s ease-out;
+  text-shadow: none;
+}
